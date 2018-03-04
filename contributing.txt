@@ -1,0 +1,17 @@
+Please use the folowing prefix to your commits:
+
+[+] - if you added something new in this commit
+[*] - if you fixed something minor in this commit
+[**] - if you fixed something major in this commit
+[***] - if you fixed something critical in this commit
+[=] - use it if your commit doesn't contain imaportant things
+[-] - if you depricate/remove something
+For example, if you add a new stage to the game I'll commit it as:
+
+[+] Added best stage ever
+If you fix major bug:
+
+[**] Fixed major bug in AI behaviour
+For something small:
+
+[=] Fixed several typos in readme
