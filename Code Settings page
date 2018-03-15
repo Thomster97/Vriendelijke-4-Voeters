@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lost Pets V0.1</title>
+    
+	 
+	  <!-- Bootstrap -->
+	<link href="css/bootstrap.css" rel="stylesheet">
+	 
+	  <!-- Custom css -->
+	    <link href="css/style.css" rel="stylesheet">
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+  </head>
+	
+  <body>
+	  
+	  <header> 
+	  <div class="col-md-12">
+			<div id="logoheader">
+			 <a href="index.html"> <img src="img/apple-touch-icon-precomposed.png" alt="logoheader" width="55px"> </a>
+				</div>
+		  </div>
+		    <div class="col-md-12">
+		  <div class="headertext2"> SETTINGS </div></div>
+			  
+		  
+	  </header>
+	  
+	  <section class="Settings">
+		  
+		
+		 <div>
+		   <div class="settingslist"> 
+					<p class="settingslist" >
+					<strong>Settings</strong> 
+					</p>
+							<hr class="settingsline">
+					<p class="settingslist">
+						Notifications
+				  </p>
+			   <div class="settingsswitch">
+				   <img src="img/toggle.png" height="15px" width="28px" alt="switch">
+			   </div>
+							<hr class="settingslanguage">
+					<p class="settingslist">
+						Language
+			  		 </p>
+			   
+			   
+			   <!-- Drop Down menu -->
+			   
+             <div class="dropdown">
+				 <div class="fullmenu">
+	             	<button onclick="myFunction()" class="dropbtn"> 
+					 
+					 <img src="img/arrow_top.png" alt="Arrow" height="23px"> 
+					 </button>
+					 </div>
+				 
+	             <div id="myDropdown" class="dropdown-content"> 
+				 		
+					 <a href="Settings.html">English</a> 
+					 <a href="Settings.html">Dutch</a>
+						 
+					 </div>
+             </div>
+			   
+			   
+			   
+					<hr class="settingsline">
+		     <p class="settingslist">
+						Delete My Account
+		     </p>	   
+			
+			   <div class="settingsicon"><img src="img/garbage.png" height="23px" alt="Thrash can">
+			   </div>
+			   				<hr class="settingsline">
+  			 </div>
+		  
+			<div class="settingslist">
+			 	<p class="notificationstekst">
+					<strong> Notifications </strong>
+				</p>
+						<hr class="settingsline">
+				<p class="settingslist" > 
+					Report a Problem
+				</p>
+				
+				 <div class="settingsicon"><img src="img/chat-2.png" height="23px" alt="report"> 
+			   </div>
+						<hr class="settingsline">
+				<p class="settingslist" > 
+					Privacy policy
+				</p>
+				 <div class="settingsicon"><img src="img/copy.png" height="23px" alt="Thrash can">
+			   </div>
+				
+						<hr class="settingsline">
+			 </div>
+			 
+	
+	  
+	  
+	  
+    </div>
+	  
+	  
+	  </section>
+	  
+	  
+	  
+	  
+	  
+	
+	  
+	  <footer>
+		  
+	  
+	<ul class="nav">
+	<li><div class="navbutton"><a href="home.html"><img src="img/homeicon.png" alt="home" height="65px" ></a></div></li>
+ 	 <li><div class="navbutton"><a href="mapview.html"><img src="img/mapviewicon.png" alt="mapview" height="65px"></a></div></li>
+	 <li><div class="navbutton"><a href="home.html"><img src="img/accounticon.png" alt="account" height="65px"></a></div></li>
+	 <li><div class="navbutton"><a href="home.html"><img src="img/settingsicon.png" alt="settings" height="65px"></a></div></li>
+	</ul>
+	  </footer>
+	  
+	  
+	  
+	  
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-1.11.3.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed --> 
+	<script src="js/bootstrap.js"></script>
+		
+	  
+  </body>
+</html>
