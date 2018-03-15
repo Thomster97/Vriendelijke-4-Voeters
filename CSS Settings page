@@ -1,0 +1,95 @@
+
+.Settings{
+	padding-top: 80px;
+	Padding-Left: 10px;
+}
+
+.settingslist{
+	Margin-left:9px;
+	width:93%; 
+	
+}
+
+.settingsline{
+	border-color: dimgray;
+	margin-bottom: 5px;
+	Margin-top: 5px;
+	
+
+}
+
+.notificationstekst{ 
+	margin-left:9px;
+	margin-top: 80px;
+	
+}
+
+.settingsicon{
+	Margin-left: 88%;
+	margin-top:-30px;
+}
+
+.settingsswitch{
+	Margin-left: 87%;
+	margin-top:-30px;
+	
+}
+
+.settingslanguage{
+	border-color: dimgray;
+	margin-bottom: 5px;
+	Margin-top: 5px;
+}
+
+
+.fullmenu{
+	Margin-left: 87%;
+}
+
+
+.dropdown{
+	margin-top: -33px;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #d5e4ce;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: relative;
+    background-color: #d5e4ce;
+    width: 100%;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #d5e4ce;
+}
+
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
